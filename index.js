@@ -106,7 +106,7 @@ async function run() {
       // const id ;
       const filter = { role: 'instructor'}
       // const query = { role: "" };
-      //  const updateDoc = {
+      //  const  = {
       //    $set: {
       
       const result = await userCollection.find(filter).toArray();
