@@ -108,7 +108,6 @@ async function run() {
       // const query = { role: "instructor" };
       //  const updateDoc = {
       //    $set: {
-      //      role: "instructor",
       
       const result = await userCollection.find(filter).toArray();
       res.send(result);
