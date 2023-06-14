@@ -106,7 +106,6 @@ async function run() {
       // const id ;
       const filter = { role: 'instructor'}
       // const query = { role: "" };
-      //  const  = {
       
       const result = await userCollection.find(filter).toArray();
       res.send(result);
