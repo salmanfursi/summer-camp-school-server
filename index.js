@@ -115,7 +115,7 @@ async function run() {
 
 
     app.get('/activeClasses', async(req, res) => {
-      // const query = req.body;
+      
       // console.log(query)
       const query = {status: 'active'}
       const result = await classCollection.find(query).toArray();
