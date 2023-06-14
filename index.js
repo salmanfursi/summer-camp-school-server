@@ -125,7 +125,6 @@ async function run() {
     app.get('/allClasses', async(req, res) => {
       
       
-      // const query = {status: 'active'}
       const result = await classCollection.find().toArray();
       res.send(result);
     })
