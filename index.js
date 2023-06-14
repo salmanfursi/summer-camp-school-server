@@ -104,7 +104,6 @@ async function run() {
 
     app.get("/instructors", async (req, res) => {
       // const id = req.body;
-      // console.log(id)
       const filter = { role: 'instructor'}
       // const query = { role: "instructor" };
       //  const updateDoc = {
